@@ -1,0 +1,1119 @@
+<?xml version="1.0"?>
+<ResponseParameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Response_Header>
+    <SegmentTag>TUEF</SegmentTag>
+    <MemberReferenceNO>202010220645103388       </MemberReferenceNO>
+    <Version>12</Version>
+    <Future_Use1>  </Future_Use1>
+    <Future_Use2>0000</Future_Use2>
+    <MemberUserID>NB67191001                    </MemberUserID>
+    <SubjectRetCode>Found</SubjectRetCode>
+    <EnquiryCtrlNumber>003555160159</EnquiryCtrlNumber>
+    <DateProcessed>22102020</DateProcessed>
+    <TimeProcessed>121510</TimeProcessed>
+  </Response_Header>
+  <Name_Segment>
+    <SegmentTag>PN</SegmentTag>
+    <CNameField_1>PANKAJ KUMAR JHA</CNameField_1>
+    <DateOfBirth>30091991</DateOfBirth>
+    <Gender>Male</Gender>
+  </Name_Segment>
+  <ID_Segment_List>
+    <IDSegment>
+      <SegmentTag>ID</SegmentTag>
+      <IdentityType>PAN</IdentityType>
+      <IDNumber>AREPJ6137A</IDNumber>
+    </IDSegment>
+    <IDSegment>
+      <SegmentTag>ID</SegmentTag>
+      <IdentityType>UID</IdentityType>
+      <IDNumber>766099830673</IDNumber>
+    </IDSegment>
+  </ID_Segment_List>
+  <Tele_Segment_List>
+    <TeleSegment>
+      <SegmentaTag>PT</SegmentaTag>
+      <TelephoneNumber>9958164783</TelephoneNumber>
+      <TelephoneType>MobilePhone</TelephoneType>
+      <EnrichedThroughEnquiry>Y</EnrichedThroughEnquiry>
+    </TeleSegment>
+    <TeleSegment>
+      <SegmentaTag>PT</SegmentaTag>
+      <TelephoneNumber>8810221370</TelephoneNumber>
+      <TelephoneType>MobilePhone</TelephoneType>
+      <EnrichedThroughEnquiry>Y</EnrichedThroughEnquiry>
+    </TeleSegment>
+    <TeleSegment>
+      <SegmentaTag>PT</SegmentaTag>
+      <TelephoneNumber>9258203219</TelephoneNumber>
+      <TelephoneType>MobilePhone</TelephoneType>
+      <EnrichedThroughEnquiry>Y</EnrichedThroughEnquiry>
+    </TeleSegment>
+    <TeleSegment>
+      <SegmentaTag>PT</SegmentaTag>
+      <TelephoneNumber>9899101010</TelephoneNumber>
+      <TelephoneType>MobilePhone</TelephoneType>
+      <EnrichedThroughEnquiry>Y</EnrichedThroughEnquiry>
+    </TeleSegment>
+  </Tele_Segment_List>
+  <Email_Segment_List>
+    <EmailSegment>
+      <SegmentaTag>EC</SegmentaTag>
+      <EmailID>RAGHUBAR@GOFASTTRACK.IN</EmailID>
+    </EmailSegment>
+    <EmailSegment>
+      <SegmentaTag>EC</SegmentaTag>
+      <EmailID>JHAPANKAJ180@GMAIL.COM</EmailID>
+    </EmailSegment>
+  </Email_Segment_List>
+  <Employment_segment>
+    <SegmentaTag>EM</SegmentaTag>
+    <AccountType>06</AccountType>
+    <DateReported>31082020</DateReported>
+    <OccupationCode>Salaried</OccupationCode>
+    <Income>50000</Income>
+    <NetGrossIncIndicator>N</NetGrossIncIndicator>
+    <MonthlyAnnualIncIndicator>M</MonthlyAnnualIncIndicator>
+  </Employment_segment>
+  <EnquiryAccNum_Segment_List />
+  <Score_Segment_List>
+    <ScoreSegment>
+      <SegmentaTag>SC</SegmentaTag>
+      <ScoreName />
+      <ScoreCardName>CIBILTUSC3</ScoreCardName>
+      <ScoreCardVersion>10</ScoreCardVersion>
+      <ScoreDate>22102020</ScoreDate>
+      <Score>00754</Score>
+      <ExclusionCode1 />
+      <ExclusionCode2 />
+      <ExclusionCode3 />
+      <ExclusionCode4 />
+      <ExclusionCode5 />
+      <ExclusionCode6 />
+      <ExclusionCode7 />
+      <ExclusionCode8 />
+      <ExclusionCode9 />
+      <ExclusionCode10 />
+      <ReasonCode1>35</ReasonCode1>
+      <ReasonCode2>39</ReasonCode2>
+      <ReasonCode3>26</ReasonCode3>
+      <ReasonCode4>25</ReasonCode4>
+      <ReasonCode5>36</ReasonCode5>
+      <ErrorCode>DEFAULT</ErrorCode>
+    </ScoreSegment>
+  </Score_Segment_List>
+  <Address_Segment_List>
+    <AddressSegment>
+      <SegmentaTag>PA</SegmentaTag>
+      <AddressLine1>FLAT NO 330 ORBIT PLAZA, PLOT NO 02 NEAR</AddressLine1>
+      <AddressLine2>ABES COLLAGE, GHAZIABAD</AddressLine2>
+      <AddressLine3 />
+      <AddressLine4 />
+      <AddressLine5 />
+      <StateCode>09</StateCode>
+      <PinCode>201016</PinCode>
+      <AddressCategory>Office</AddressCategory>
+      <ResidenceCode />
+      <DateReported>12102020</DateReported>
+      <MemberShortName />
+      <EnrichedThroghEnqry>Y</EnrichedThroghEnqry>
+    </AddressSegment>
+    <AddressSegment>
+      <SegmentaTag>PA</SegmentaTag>
+      <AddressLine1>F NO 334 B MAYUR VIHAR PHASE-1</AddressLine1>
+      <AddressLine2>POCKET-2 EAST DELHI</AddressLine2>
+      <AddressLine3>DELHI</AddressLine3>
+      <AddressLine4 />
+      <AddressLine5 />
+      <StateCode>07</StateCode>
+      <PinCode>110091</PinCode>
+      <AddressCategory>Permanent</AddressCategory>
+      <ResidenceCode>Owned</ResidenceCode>
+      <DateReported>30062020</DateReported>
+      <MemberShortName />
+      <EnrichedThroghEnqry />
+    </AddressSegment>
+    <AddressSegment>
+      <SegmentaTag>PA</SegmentaTag>
+      <AddressLine1>FLAT NO-22123 TOWER, GHAZIABAD</AddressLine1>
+      <AddressLine2 />
+      <AddressLine3 />
+      <AddressLine4 />
+      <AddressLine5 />
+      <StateCode>09</StateCode>
+      <PinCode>201016</PinCode>
+      <AddressCategory>Residence</AddressCategory>
+      <ResidenceCode />
+      <DateReported>22012020</DateReported>
+      <MemberShortName />
+      <EnrichedThroghEnqry>Y</EnrichedThroghEnqry>
+    </AddressSegment>
+    <AddressSegment>
+      <SegmentaTag>PA</SegmentaTag>
+      <AddressLine1>NOIDA</AddressLine1>
+      <AddressLine2>UTTAR PRADESH 201306</AddressLine2>
+      <AddressLine3 />
+      <AddressLine4 />
+      <AddressLine5 />
+      <StateCode>09</StateCode>
+      <PinCode>201306</PinCode>
+      <AddressCategory>Residence</AddressCategory>
+      <ResidenceCode />
+      <DateReported>15012020</DateReported>
+      <MemberShortName />
+      <EnrichedThroghEnqry>Y</EnrichedThroghEnqry>
+    </AddressSegment>
+  </Address_Segment_List>
+  <Account_Segment_List>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>06</AccountType>
+      <OwnershipIndicator>Individual</OwnershipIndicator>
+      <DateOpendDisburesd>13082020</DateOpendDisburesd>
+      <DateReportedCertified>31082020</DateReportedCertified>
+      <HighCreditSanctionedAmount>78200</HighCreditSanctionedAmount>
+      <CurrentBalance>78200</CurrentBalance>
+      <PaymentHistory1>000</PaymentHistory1>
+      <PaymentHistoryStartDate>01082020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01082020</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <RateOfInterest>2.00</RateOfInterest>
+      <RepaymentTenure>12</RepaymentTenure>
+      <EMIAmount>7690</EMIAmount>
+      <PaymentFrequency>Monthly</PaymentFrequency>
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>61</AccountType>
+      <OwnershipIndicator>Joint</OwnershipIndicator>
+      <DateOpendDisburesd>29062020</DateOpendDisburesd>
+      <DateOfLastPayment>30092020</DateOfLastPayment>
+      <DateReportedCertified>30092020</DateReportedCertified>
+      <HighCreditSanctionedAmount>118582</HighCreditSanctionedAmount>
+      <CurrentBalance>118583</CurrentBalance>
+      <PaymentHistory1>STDSTDSTDSTD</PaymentHistory1>
+      <PaymentHistoryStartDate>01092020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01062020</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <RepaymentTenure>48</RepaymentTenure>
+      <PaymentFrequency xsi:nil="true" />
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>24</AccountType>
+      <OwnershipIndicator>Joint</OwnershipIndicator>
+      <DateOpendDisburesd>18062020</DateOpendDisburesd>
+      <DateReportedCertified>31082020</DateReportedCertified>
+      <HighCreditSanctionedAmount>302000</HighCreditSanctionedAmount>
+      <CurrentBalance>302000</CurrentBalance>
+      <PaymentHistory1>000000000</PaymentHistory1>
+      <PaymentHistoryStartDate>01082020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01062020</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <RateOfInterest>9.00</RateOfInterest>
+      <RepaymentTenure>48</RepaymentTenure>
+      <EMIAmount>2367</EMIAmount>
+      <PaymentFrequency>Monthly</PaymentFrequency>
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>10</AccountType>
+      <OwnershipIndicator>Individual</OwnershipIndicator>
+      <DateOpendDisburesd>20022020</DateOpendDisburesd>
+      <DateOfLastPayment>03082020</DateOfLastPayment>
+      <DateReportedCertified>16082020</DateReportedCertified>
+      <HighCreditSanctionedAmount>25773</HighCreditSanctionedAmount>
+      <CurrentBalance>0</CurrentBalance>
+      <PaymentHistory1>000000XXX000000000</PaymentHistory1>
+      <PaymentHistoryStartDate>01082020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01032020</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <Creditlimit>80000</Creditlimit>
+      <PaymentFrequency xsi:nil="true" />
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>06</AccountType>
+      <OwnershipIndicator>Individual</OwnershipIndicator>
+      <DateOpendDisburesd>31012020</DateOpendDisburesd>
+      <DateOfLastPayment>12082020</DateOfLastPayment>
+      <DateReportedCertified>31082020</DateReportedCertified>
+      <HighCreditSanctionedAmount>91990</HighCreditSanctionedAmount>
+      <CurrentBalance>18398</CurrentBalance>
+      <PaymentHistory1>000000000000000000000</PaymentHistory1>
+      <PaymentHistoryStartDate>01082020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01022020</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <PaymentFrequency xsi:nil="true" />
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>51</AccountType>
+      <OwnershipIndicator>Guarantor</OwnershipIndicator>
+      <DateOpendDisburesd>29012020</DateOpendDisburesd>
+      <DateReportedCertified>31052020</DateReportedCertified>
+      <HighCreditSanctionedAmount>1510000</HighCreditSanctionedAmount>
+      <CurrentBalance>1412290</CurrentBalance>
+      <PaymentHistory1>000000000000000</PaymentHistory1>
+      <PaymentHistoryStartDate>01052020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01012020</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <RateOfInterest>18.50</RateOfInterest>
+      <RepaymentTenure>36</RepaymentTenure>
+      <EMIAmount>54970</EMIAmount>
+      <PaymentFrequency>Monthly</PaymentFrequency>
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>10</AccountType>
+      <OwnershipIndicator>Individual</OwnershipIndicator>
+      <DateOpendDisburesd>06112019</DateOpendDisburesd>
+      <DateOfLastPayment>07062020</DateOfLastPayment>
+      <DateReportedCertified>28082020</DateReportedCertified>
+      <HighCreditSanctionedAmount>22994</HighCreditSanctionedAmount>
+      <CurrentBalance>0</CurrentBalance>
+      <PaymentHistory1>000000000000000000000000000</PaymentHistory1>
+      <PaymentHistoryStartDate>01082020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01122019</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <Creditlimit>81000</Creditlimit>
+      <CashLimit>8100</CashLimit>
+      <PaymentFrequency>Monthly</PaymentFrequency>
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>13</AccountType>
+      <OwnershipIndicator>Individual</OwnershipIndicator>
+      <DateOpendDisburesd>27092019</DateOpendDisburesd>
+      <DateOfLastPayment>10072020</DateOfLastPayment>
+      <DateReportedCertified>31072020</DateReportedCertified>
+      <HighCreditSanctionedAmount>120000</HighCreditSanctionedAmount>
+      <CurrentBalance>90246</CurrentBalance>
+      <PaymentHistory1>000000000000000000000000000000000</PaymentHistory1>
+      <PaymentHistoryStartDate>01072020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01092019</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <PaymentFrequency xsi:nil="true" />
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>06</AccountType>
+      <OwnershipIndicator>Individual</OwnershipIndicator>
+      <DateOpendDisburesd>16052019</DateOpendDisburesd>
+      <DateOfLastPayment>06022020</DateOfLastPayment>
+      <DateClosed>06022020</DateClosed>
+      <DateReportedCertified>29022020</DateReportedCertified>
+      <HighCreditSanctionedAmount>48209</HighCreditSanctionedAmount>
+      <CurrentBalance>0</CurrentBalance>
+      <PaymentHistory1>000000000000000XXX000000000000</PaymentHistory1>
+      <PaymentHistoryStartDate>01022020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01052019</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <PaymentFrequency>Monthly</PaymentFrequency>
+      <ActualPaymentAmount>5766</ActualPaymentAmount>
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>10</AccountType>
+      <OwnershipIndicator>Individual</OwnershipIndicator>
+      <DateOpendDisburesd>03052019</DateOpendDisburesd>
+      <DateOfLastPayment>15072020</DateOfLastPayment>
+      <DateReportedCertified>31072020</DateReportedCertified>
+      <HighCreditSanctionedAmount>3814</HighCreditSanctionedAmount>
+      <CurrentBalance>2113</CurrentBalance>
+      <PaymentHistory1>000000000000000000000000000000000000000000000</PaymentHistory1>
+      <PaymentHistoryStartDate>01072020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01052019</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <PaymentFrequency xsi:nil="true" />
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>10</AccountType>
+      <OwnershipIndicator>Individual</OwnershipIndicator>
+      <DateOpendDisburesd>24042019</DateOpendDisburesd>
+      <DateOfLastPayment>03082020</DateOfLastPayment>
+      <DateReportedCertified>07082020</DateReportedCertified>
+      <HighCreditSanctionedAmount>54239</HighCreditSanctionedAmount>
+      <CurrentBalance>0</CurrentBalance>
+      <PaymentHistory1>000000000000000XXXXXX000000000000000000000000000</PaymentHistory1>
+      <PaymentHistoryStartDate>01082020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01052019</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <Creditlimit>63000</Creditlimit>
+      <PaymentFrequency xsi:nil="true" />
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>61</AccountType>
+      <OwnershipIndicator>Joint</OwnershipIndicator>
+      <DateOpendDisburesd>31032019</DateOpendDisburesd>
+      <DateOfLastPayment>07092020</DateOfLastPayment>
+      <DateReportedCertified>30092020</DateReportedCertified>
+      <HighCreditSanctionedAmount>756053</HighCreditSanctionedAmount>
+      <CurrentBalance>459737</CurrentBalance>
+      <PaymentHistory1>STDSTDSTDSTDSTDSTDSTDSTDSTDSTDSTDSTDSTDSTDSTDSTDSTDSTD</PaymentHistory1>
+      <PaymentHistory2>STD</PaymentHistory2>
+      <PaymentHistoryStartDate>01092020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01032019</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <RepaymentTenure>36</RepaymentTenure>
+      <PaymentFrequency xsi:nil="true" />
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>10</AccountType>
+      <OwnershipIndicator>Individual</OwnershipIndicator>
+      <DateOpendDisburesd>24022019</DateOpendDisburesd>
+      <DateOfLastPayment>06082020</DateOfLastPayment>
+      <DateReportedCertified>16082020</DateReportedCertified>
+      <HighCreditSanctionedAmount>77204</HighCreditSanctionedAmount>
+      <CurrentBalance>0</CurrentBalance>
+      <PaymentHistory1>000000000000000000000000000000000000000000000000000000</PaymentHistory1>
+      <PaymentHistory2>000</PaymentHistory2>
+      <PaymentHistoryStartDate>01082020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01022019</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <Creditlimit>69000</Creditlimit>
+      <CashLimit>6900</CashLimit>
+      <RateOfInterest>46.20</RateOfInterest>
+      <PaymentFrequency>Monthly</PaymentFrequency>
+      <ActualPaymentAmount>145</ActualPaymentAmount>
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>06</AccountType>
+      <OwnershipIndicator>Individual</OwnershipIndicator>
+      <DateOpendDisburesd>11022019</DateOpendDisburesd>
+      <DateOfLastPayment>04072019</DateOfLastPayment>
+      <DateReportedCertified>31082020</DateReportedCertified>
+      <HighCreditSanctionedAmount>12990</HighCreditSanctionedAmount>
+      <CurrentBalance>0</CurrentBalance>
+      <PaymentHistory1>000000000000000000000000000000000000000000000000000000</PaymentHistory1>
+      <PaymentHistory2>000</PaymentHistory2>
+      <PaymentHistoryStartDate>01082020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01022019</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <RepaymentTenure>6</RepaymentTenure>
+      <EMIAmount>2165</EMIAmount>
+      <PaymentFrequency>Monthly</PaymentFrequency>
+      <ActualPaymentAmount>2165</ActualPaymentAmount>
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>02</AccountType>
+      <OwnershipIndicator>Joint</OwnershipIndicator>
+      <DateOpendDisburesd>31012019</DateOpendDisburesd>
+      <DateClosed>10072020</DateClosed>
+      <DateReportedCertified>31072020</DateReportedCertified>
+      <HighCreditSanctionedAmount>5285394</HighCreditSanctionedAmount>
+      <CurrentBalance>0</CurrentBalance>
+      <PaymentHistory1>000000000000000000000000000000000000000000XXX000000000</PaymentHistory1>
+      <PaymentHistory2>000</PaymentHistory2>
+      <PaymentHistoryStartDate>01072020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01012019</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <EMIAmount>50186</EMIAmount>
+      <PaymentFrequency xsi:nil="true" />
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>02</AccountType>
+      <OwnershipIndicator>Joint</OwnershipIndicator>
+      <DateOpendDisburesd>31012019</DateOpendDisburesd>
+      <DateClosed>10072020</DateClosed>
+      <DateReportedCertified>31072020</DateReportedCertified>
+      <HighCreditSanctionedAmount>60986</HighCreditSanctionedAmount>
+      <CurrentBalance>0</CurrentBalance>
+      <PaymentHistory1>000000000000000000000000000000000000000000000000000000</PaymentHistory1>
+      <PaymentHistory2>000</PaymentHistory2>
+      <PaymentHistoryStartDate>01072020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01012019</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <EMIAmount>579</EMIAmount>
+      <PaymentFrequency xsi:nil="true" />
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>61</AccountType>
+      <OwnershipIndicator>Guarantor</OwnershipIndicator>
+      <DateOpendDisburesd>29112018</DateOpendDisburesd>
+      <DateClosed>26062020</DateClosed>
+      <DateReportedCertified>30062020</DateReportedCertified>
+      <HighCreditSanctionedAmount>2000000</HighCreditSanctionedAmount>
+      <CurrentBalance>0</CurrentBalance>
+      <PaymentHistory1>000000000000000XXX000000000000000000000000001000000000</PaymentHistory1>
+      <PaymentHistory2>000000</PaymentHistory2>
+      <PaymentHistoryStartDate>01062020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01112018</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <PaymentFrequency>Monthly</PaymentFrequency>
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>10</AccountType>
+      <OwnershipIndicator>Individual</OwnershipIndicator>
+      <DateOpendDisburesd>17012018</DateOpendDisburesd>
+      <DateOfLastPayment>06082020</DateOfLastPayment>
+      <DateReportedCertified>30092020</DateReportedCertified>
+      <HighCreditSanctionedAmount>24119</HighCreditSanctionedAmount>
+      <CurrentBalance>23302</CurrentBalance>
+      <PaymentHistory1>000000000000000000000000000000000000000000000000000000</PaymentHistory1>
+      <PaymentHistory2>000000000000000000000000000000000000000000000</PaymentHistory2>
+      <PaymentHistoryStartDate>01092020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01012018</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <PaymentFrequency xsi:nil="true" />
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+    <AccountSegment>
+      <strLiveCloseAccountName>ACCTREVIEW_SUMM</strLiveCloseAccountName>
+      <SegmentaTag>TL</SegmentaTag>
+      <ReportingMemberShortName>NOT DISCLOSED</ReportingMemberShortName>
+      <AccountType>13</AccountType>
+      <OwnershipIndicator>Individual</OwnershipIndicator>
+      <DateOpendDisburesd>22122015</DateOpendDisburesd>
+      <DateOfLastPayment>15012018</DateOfLastPayment>
+      <DateReportedCertified>31082020</DateReportedCertified>
+      <HighCreditSanctionedAmount>45800</HighCreditSanctionedAmount>
+      <CurrentBalance>0</CurrentBalance>
+      <PaymentHistory1>000000000000000000000000000000000000000000000000000000</PaymentHistory1>
+      <PaymentHistory2>000000000000000000000000000000000000000000000000000000</PaymentHistory2>
+      <PaymentHistoryStartDate>01082020</PaymentHistoryStartDate>
+      <PaymentHistoryEndDate>01092017</PaymentHistoryEndDate>
+      <SuitFiledWilful xsi:nil="true" />
+      <WrittenOFfSettledStatus xsi:nil="true" />
+      <TypeOfCollateral xsi:nil="true" />
+      <PaymentFrequency>Monthly</PaymentFrequency>
+      <AccountGroup>DEFAULT</AccountGroup>
+      <LiveCloaseIndicator>LiveAccount</LiveCloaseIndicator>
+    </AccountSegment>
+  </Account_Segment_List>
+  <Enquiry_Segment_List>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>22102020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>61</EnquiryPurpose>
+      <EnquiryAmount>2500000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>19102020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>06</EnquiryPurpose>
+      <EnquiryAmount>50000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>17102020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>52</EnquiryPurpose>
+      <EnquiryAmount>2500002</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>17102020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>05</EnquiryPurpose>
+      <EnquiryAmount>1000000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>14102020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>51</EnquiryPurpose>
+      <EnquiryAmount>1500000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>12102020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>51</EnquiryPurpose>
+      <EnquiryAmount>2500000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>10102020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>51</EnquiryPurpose>
+      <EnquiryAmount>100000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>09102020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>05</EnquiryPurpose>
+      <EnquiryAmount>513362</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>09102020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>00</EnquiryPurpose>
+      <EnquiryAmount>1</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>07102020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>10</EnquiryPurpose>
+      <EnquiryAmount>100</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>29092020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>51</EnquiryPurpose>
+      <EnquiryAmount>100000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>12092020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>05</EnquiryPurpose>
+      <EnquiryAmount>1000000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>09092020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>10</EnquiryPurpose>
+      <EnquiryAmount>100000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>14082020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>06</EnquiryPurpose>
+      <EnquiryAmount>50000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>10082020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>06</EnquiryPurpose>
+      <EnquiryAmount>683990</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>18062020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>51</EnquiryPurpose>
+      <EnquiryAmount>302000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>08062020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>06</EnquiryPurpose>
+      <EnquiryAmount>531790</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>06062020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>10</EnquiryPurpose>
+      <EnquiryAmount>50000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>21022020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>10</EnquiryPurpose>
+      <EnquiryAmount>1000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>12022020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>53</EnquiryPurpose>
+      <EnquiryAmount>2500000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>12022020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>10</EnquiryPurpose>
+      <EnquiryAmount>10000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>07022020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>02</EnquiryPurpose>
+      <EnquiryAmount>5200000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>02022020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>06</EnquiryPurpose>
+      <EnquiryAmount>211800</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>30012020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>06</EnquiryPurpose>
+      <EnquiryAmount>211800</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>30012020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>10</EnquiryPurpose>
+      <EnquiryAmount>1000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>30012020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>05</EnquiryPurpose>
+      <EnquiryAmount>50000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>29012020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>52</EnquiryPurpose>
+      <EnquiryAmount>2500000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>25012020</DateOfEnquiry>
+      <EnquiryMemberShortName>EHFL</EnquiryMemberShortName>
+      <EnquiryPurpose>51</EnquiryPurpose>
+      <EnquiryAmount>15000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>22012020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>00</EnquiryPurpose>
+      <EnquiryAmount>2000000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>22012020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>61</EnquiryPurpose>
+      <EnquiryAmount>2000000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>21012020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>52</EnquiryPurpose>
+      <EnquiryAmount>500000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>17012020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>51</EnquiryPurpose>
+      <EnquiryAmount>2000000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>16012020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>51</EnquiryPurpose>
+      <EnquiryAmount>100000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>16012020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>51</EnquiryPurpose>
+      <EnquiryAmount>1</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>15012020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>05</EnquiryPurpose>
+      <EnquiryAmount>1000000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>15012020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>51</EnquiryPurpose>
+      <EnquiryAmount>1000000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>14012020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>51</EnquiryPurpose>
+      <EnquiryAmount>2000000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>13012020</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>51</EnquiryPurpose>
+      <EnquiryAmount>5000000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>20112019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>10</EnquiryPurpose>
+      <EnquiryAmount>1000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>30102019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>10</EnquiryPurpose>
+      <EnquiryAmount>100</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>07102019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>06</EnquiryPurpose>
+      <EnquiryAmount>50000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>07102019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>05</EnquiryPurpose>
+      <EnquiryAmount>16200</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>28092019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>13</EnquiryPurpose>
+      <EnquiryAmount>120000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>12092019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>13</EnquiryPurpose>
+      <EnquiryAmount>152000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>12092019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>13</EnquiryPurpose>
+      <EnquiryAmount>152000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>12092019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>13</EnquiryPurpose>
+      <EnquiryAmount>170000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>08082019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>13</EnquiryPurpose>
+      <EnquiryAmount>500000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>05082019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>05</EnquiryPurpose>
+      <EnquiryAmount>1</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>06062019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>10</EnquiryPurpose>
+      <EnquiryAmount>15000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>03052019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>06</EnquiryPurpose>
+      <EnquiryAmount>10000000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>03052019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>06</EnquiryPurpose>
+      <EnquiryAmount>73900</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>03052019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>06</EnquiryPurpose>
+      <EnquiryAmount>147800</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>09042019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>52</EnquiryPurpose>
+      <EnquiryAmount>250000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>09042019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>61</EnquiryPurpose>
+      <EnquiryAmount>1500000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>08042019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>52</EnquiryPurpose>
+      <EnquiryAmount>1600000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>27032019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>61</EnquiryPurpose>
+      <EnquiryAmount>15000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>22032019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>51</EnquiryPurpose>
+      <EnquiryAmount>4000000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>18032019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>61</EnquiryPurpose>
+      <EnquiryAmount>1500000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>17032019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>05</EnquiryPurpose>
+      <EnquiryAmount>1000000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>16032019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>51</EnquiryPurpose>
+      <EnquiryAmount>100000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>16032019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>00</EnquiryPurpose>
+      <EnquiryAmount>1</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>14032019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>51</EnquiryPurpose>
+      <EnquiryAmount>1000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>20022019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>10</EnquiryPurpose>
+      <EnquiryAmount>1</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>07022019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>06</EnquiryPurpose>
+      <EnquiryAmount>13000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>07022019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>06</EnquiryPurpose>
+      <EnquiryAmount>13000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>28012019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>02</EnquiryPurpose>
+      <EnquiryAmount>6000000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>25012019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>02</EnquiryPurpose>
+      <EnquiryAmount>60000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>07012019</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>02</EnquiryPurpose>
+      <EnquiryAmount>5500000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>23112018</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>51</EnquiryPurpose>
+      <EnquiryAmount>100000</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>15122015</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>13</EnquiryPurpose>
+      <EnquiryAmount>45800</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>31102015</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>13</EnquiryPurpose>
+      <EnquiryAmount>45800</EnquiryAmount>
+    </EnquirySegment>
+    <EnquirySegment>
+      <SegmentaTag>IQ</SegmentaTag>
+      <DateOfEnquiry>15092015</DateOfEnquiry>
+      <EnquiryMemberShortName>NOT DISCLOSED</EnquiryMemberShortName>
+      <EnquiryPurpose>13</EnquiryPurpose>
+      <EnquiryAmount>46272</EnquiryAmount>
+    </EnquirySegment>
+  </Enquiry_Segment_List>
+  <Dispute_Remark_Segment>
+    <SegmentaTag>DEFAULT</SegmentaTag>
+  </Dispute_Remark_Segment>
+  <End_Segment>
+    <SegmentaTag>ES</SegmentaTag>
+    <LengthOfTransmission>0007981</LengthOfTransmission>
+    <EndCharacters>**</EndCharacters>
+  </End_Segment>
+  <ErrorSegment>
+    <SegmentaTag>DEFAULT</SegmentaTag>
+    <DateProcessed />
+    <TimeProcessed />
+  </ErrorSegment>
+  <UserRefErrorSegment_List />
+</ResponseParameters>

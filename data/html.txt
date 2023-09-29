@@ -1,0 +1,720 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    <title>Credit Information Report</title>
+    <style type='text/css'>
+        body
+        {
+            font-family: Segoe UI;
+            font-size: 13px;
+        }
+        
+        .HorizontalLine
+        {
+            background: #005485;
+            height: 5px;
+        }
+        
+        b
+        {
+            color: #467e97;
+            font-weight: bold;
+        }
+        
+        
+        
+        h1, h2
+        {
+            color: #467e97;
+            text-transform: uppercase;
+            vertical-align: text-bottom;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            text-align: center;
+        }
+        
+        h3
+        {
+            color: #a8a8a8;
+            text-transform: uppercase;
+            vertical-align: text-bottom;
+            padding-bottom: 2px;
+            padding-top: 2px;
+            text-align: center;
+        }
+        
+        h4
+        {
+            color: #467e97;
+            text-transform: uppercase;
+            vertical-align: baseline;
+            text-align: center;
+            padding-bottom: 2px;
+            padding-top: 2px;
+        }
+        
+        div
+        {
+            background: #fff;
+        }
+        .divCenter
+        {
+            width: 80%;
+            margin: 0em auto;
+        }
+        
+        .divHighLight
+        {
+            background: #e5f0f0; /*color: #467e97;*/
+            padding: 10px;
+            font-size: 15px;
+        }
+        
+        .divHeader
+        {
+            color: #666666;
+            text-align: left;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 5px;
+        }
+        
+        .divInfo
+        {
+            width: 100%;
+            background: #f0f0f0;
+        }
+        .tableStyle
+        {
+            padding: 2px;
+        }
+        
+        .tableStyle tr th
+        {
+            color: #467e97;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: bold;
+        }
+        .tableStyle tr td
+        {
+            vertical-align: middle;
+        }
+        
+        
+        .tableCellRight
+        {
+            text-align: right;
+            font-weight: normal;
+            width: 50%;
+            color: #000;
+        }
+        .tableCellLeft
+        {
+            text-align: left;
+            font-weight: normal;
+            width: 50%;
+            color: Red;
+        }
+        
+        .tableInfo
+        {
+            width: 100%;
+            font-size: 13px;
+        }
+        
+        .tableInfo tr th
+        {
+            color: #467e97;
+            text-transform: uppercase;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        .tableInfo tr td
+        {
+        }
+        
+        
+        .tableInfo > tr:nth-child(even)
+        {
+            background: #CCC;
+        }
+        tr:nth-child(odd)
+        {
+            background: #FFF;
+        }
+    </style>
+</head>
+<body>
+    <div class='divCenter'>
+        <h2>
+            CREDIT INFORMATION BUREAU (INDIA) LIMITED</h2>
+        <h3>
+            IN ASSOCIATION WITH DUN BRADSTREET AND TRANSUNION</h3>
+        <h4>
+            CIBIL CONSUMER CREDIT INDORMATION REPORT</h4>
+    </div>
+    <div id='divCIBILHeader'>
+        <table width='100%'>
+            <tr>
+                <td width='30%'>
+                    <b>CONSUMER NAME</b>
+                </td>
+                <td width='50%'>
+                    PANKAJ KUMAR JHA
+                </td>
+                <td width='20%'>
+                    <b>DATE</b>
+                </td>
+                <td>
+                    22-10-2020
+                </td>
+            </tr>
+            <tr>
+                <td width='30%'>
+                    <b>MEMBER ID</b>
+                </td>
+                <td width='50%'>
+                    NB67191001                    
+                </td>
+                <td width='20%'>
+                    <b>TIME</b>
+                </td>
+                <td>
+                    12:15:10
+                </td>
+            </tr>
+            <tr>
+                <td width='30%'>
+                    <b>MEMBER REFERENCE NUMBER</b>
+                </td>
+                <td width='50%'>
+                    202010220645103388       
+                </td>
+                <td width='20%'>
+                    <b>CONTROL NUMBER</b>
+                </td>
+                <td>
+                    003555160159
+                </td>
+            </tr>
+        </table>
+    </div>
+    <hr />
+    <br />
+    <div id='divConsumerInfo'>
+        <table width='100%'>
+            <tr>
+                <th align='left'>
+                    CONSUMER INFORMATION
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    NAME
+                </td>
+                <td>
+                    PANKAJ KUMAR JHA
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    DATE OF BIRTH
+                </td>
+                <td>
+                    30-09-1991
+                </td>
+                <td>
+                    GENDER
+                </td>
+                <td>
+                    Male
+                </td>
+            </tr>
+        </table>
+    </div>
+    <hr />
+    <div id='divCIBILScore'>
+        <h4>
+            CIBIL TRANSUNION SCORE(S)</h4>
+        <div class='divHighLight'>
+            <table width='100%'>
+                <tr>
+                    <th width='20%'>
+                        SCORE NAME
+                    </th>
+                    <th width='20%'>
+                        SCORE
+                    </th>
+                    <th width='80%'>
+                        SCORING FACTORS
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        CIBIL TRANSUNION SCORE
+                    </td>
+                    <td align='center'>
+                        <big><b>00754</b> </big>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>LENGTH OF TIME ACCOUNTS HAVE BEEN ESTABLISHED IS TOO SHORT.</li>
+                            <li>NUMBER OF ACTIVE TRADES WITH A BALANCE TOO HIGH IN PROPORTION TO TOTAL TRADES.</li>
+                            <li>PRESENCE OF ACCOUNT DELINQUENCY IN THE PAST.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan='3'>
+                        <hr />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        PERSONAL LOAN SCORE
+                    </td>
+                    <td align='center'>
+                        <big><b>Not Available</b></big>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>ONE OR MORE TRADES WITH RESTRUCTURED DEBT IN THE PAST 24 MONTHS.</li>
+                            <li>LOW AVERAGE TRADE AGE.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br />
+        <div class='divHighLight'>
+            <table width='100%' class='tableStyle'>
+                <tr>
+                    <th colspan='2'>
+                        POSSIBLE RANGE FOR CIBIL TRANSUNION SCORE
+                    </th>
+                </tr>
+                <tr>
+                    <td class='tableCellRight'>
+                        Consumers with more than 6 months credit history* :
+                    </td>
+                    <td class='tableCellLeft'>
+                        300 (high risk) to 900 (low risk)
+                    </td>
+                </tr>
+                <tr>
+                    <td class='tableCellRight'>
+                        Consumers with less than 6 months credit history* :
+                    </td>
+                    <td class='tableCellLeft'>
+                        0
+                    </td>
+                </tr>
+                <tr>
+                    <td class='tableCellRight'>
+                        Consumers not in CIBIL database or with insufficient information for scoring* :
+                    </td>
+                    <td class='tableCellLeft'>
+                        -1
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan='2'>
+                        * At least one tradeline with information updated in last 24 months is required.In
+                        case of error in scoring a value of '0' is returned.
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br />
+        <div class='divHighLight'>
+            <table width='100%'>
+                <tr>
+                    <th colspan='2'>
+                        POSSIBLE RANGE FOR CIBIL TRANSUNION PERSONAL LOAN SCORE
+                    </th>
+                </tr>
+                <tr>
+                    <td class='tableCellRight'>
+                        Consumers with more than 1 month credit history* :
+                    </td>
+                    <td class='tableCellLeft'>
+                        300 (high risk) to 900 (low risk)
+                    </td>
+                </tr>
+                <tr>
+                    <td class='tableCellRight'>
+                        Consumers not in CIBIL database or with insufficient information for scoring* :
+                    </td>
+                    <td class='tableCellLeft'>
+                        -1
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan='2'>
+                        * At least one tradeline with information updated in last 24 months is required.In
+                        case of error in scoring a value of '0' is returned.
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br />
+    </div>
+    <div style='page-break-after: always'>
+    </div>
+    <div id='divIdentificationSegement'>
+        <div class='divHeader'>
+            IDENTIFICATION(S)
+        </div>
+        <hr />
+        <div>
+            <table class='tableInfo'><tr><th>IDENTIFICATION TYPE</th><th>IDENTIFICATION NUMBER</th><th>ISSUE DATE</th><th>EXPIRATION DATE</th></tr><tr><td>PAN</td><td>AREPJ6137A</td><td>-</td><td>-</td></tr><tr><td>UID</td><td>766099830673</td><td>-</td><td>-</td></tr></table>
+        </div>
+    </div>
+    <br />
+    <div id='divTelephoneSegment'>
+        <div class='divHeader'>
+            TELEPHONE(S)
+        </div>
+        <hr />
+        <div>
+            <table class='tableInfo'><tr><th>TELEPHONE TYPE</th><th>TELEPHONE NUMBER</th><th>TELEPHONE EXTENSION</th></tr><tr><td>MobilePhone</td><td>9958164783</td><td>-</td></tr><tr><td>MobilePhone</td><td>8810221370</td><td>-</td></tr><tr><td>MobilePhone</td><td>9258203219</td><td>-</td></tr><tr><td>MobilePhone</td><td>9899101010</td><td>-</td></tr></table>
+        </div>
+    </div>
+    <br />
+    <div id='divEmailContacts'>
+        <div class='divHeader'>
+            EMAILCONTACT(S)
+        </div>
+        <hr />
+        <div>
+            <table class='tableInfo'><tr><th>EMAIL</th></tr><tr><td>RAGHUBAR@GOFASTTRACK.IN</td></tr><tr><td>JHAPANKAJ180@GMAIL.COM</td></tr></table>
+        </div>
+    </div>
+    <br />
+    <div id='divAddress'>
+        <div class='divHeader'>
+            ADDRESS(ES)
+        </div>
+        <hr />
+        <div>
+            <table class='tableInfo'><tr><th>ADDRESS</th><th>CATEGORY</th><th>RESIDENCE CODE</th><th>DATE REPORTED</th></tr><tr><td>FLAT NO 330 ORBIT PLAZA, PLOT NO 02 NEAR ABES COLLAGE, GHAZIABAD Uttar Pradesh201016</td><td>Office</td><td>-</td><td>12-10-2020</td></tr><tr><td>F NO 334 B MAYUR VIHAR PHASE-1 POCKET-2 EAST DELHI DELHI Delhi110091</td><td>Permanent</td><td>Owned</td><td>30-06-2020</td></tr><tr><td>FLAT NO-22123 TOWER, GHAZIABAD Uttar Pradesh201016</td><td>Residence</td><td>-</td><td>22-01-2020</td></tr><tr><td>NOIDA UTTAR PRADESH 201306 Uttar Pradesh201306</td><td>Residence</td><td>-</td><td>15-01-2020</td></tr></table>
+        </div>
+    </div>
+    <br />
+    <div id='divEmploymentInfo'>
+        <div class='divHeader'>
+            EMPLOYMENT INFORMATION
+        </div>
+        <hr />
+        <div>
+            <table class='tableInfo'><tr><th>ACCOUNT TYPE</th><th>DATE REPORTED</th><th>OCCUPATION CODE</th><th>INCOME</th><th>NET/GROSS INCOME INDICATOR</th><th>MONTHLY/ANNUAL INCOME INDICATOR</th></tr><tr><td>Consumer Loan</td><td>31-08-2020</td><td>Salaried</td><td>50000</td><td>N</td><td>M</td></tr></table>
+        </div>
+    </div>
+    <br />
+    <div id='divAccountSummary'>
+        <div class='divHeader'>
+            ACCOUNT SUMMARY
+        </div>
+        <hr />
+        <div>
+            <table class='tableInfo'><tr><th>ACCOUNT TYPES</th><th>TOTAL ACCOUNTS</th><th>HIGHCR/SANC.AMT</th><th>CURRENT BAL</th><th>OVERDUE</th><th>ZERO-BALANCE</th></tr><tr><td>All accounts</td><td>19</td><td>10638347</td><td>2504869</td><td>0</td><td>0</td></tr></table>
+        </div>
+    </div>
+    <br />
+    <div style='page-break-after: always'>
+    </div>
+    <hr />
+    <div id='divAccounts'>
+        <div class='divHeader'>
+            ACCOUNT(S)
+        </div>
+        <hr />
+        <div>
+            <table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>CONSUMER LOAN</td><td>Individual</td><td>-</td><td>Blank</td><td>13-08-2020</td><td>-</td><td>-</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>31-08-2020</td><td>78200</td><td>78200</td><td>7690</td><td>Monthly</td><td>12</td><td>2.00</td><td>-</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-08-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-08-2020
+<br/>
+<br/>
+<table><tr><td>000</td></tr><tr><td>8-20</td></tr></table>
+<br/>
+<hr/>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>OTHER</td><td>Joint</td><td>-</td><td>Blank</td><td>29-06-2020</td><td>-</td><td>30-09-2020</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>30-09-2020</td><td>118582</td><td>118583</td><td>-</td><td>Blank</td><td>48</td><td>-</td><td>-</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-09-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-06-2020
+<br/><table><tr><td>STD</td><td>STD</td></tr><tr><td>9-20</td><td>8-20</td></tr></table>
+<br/>
+<table><tr><td>STD</td><td>STD</td></tr><tr><td>7-20</td><td>6-20</td></tr></table>
+<br/>
+<hr/>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>OTHER</td><td>Joint</td><td>-</td><td>Blank</td><td>18-06-2020</td><td>-</td><td>-</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>31-08-2020</td><td>302000</td><td>302000</td><td>2367</td><td>Monthly</td><td>48</td><td>9.00</td><td>-</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-08-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-06-2020
+<br/><table><tr><td>000</td></tr><tr><td>8-20</td></tr></table>
+<br/>
+<table><tr><td>000</td><td>000</td></tr><tr><td>7-20</td><td>6-20</td></tr></table>
+<br/>
+<hr/>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>CREDIT CARD</td><td>Individual</td><td>-</td><td>Blank</td><td>20-02-2020</td><td>-</td><td>03-08-2020</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>16-08-2020</td><td>25773</td><td>0</td><td>-</td><td>Blank</td><td>-</td><td>-</td><td>-</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-08-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-03-2020
+<br/><table><tr><td>000</td><td>000</td><td>XXX</td></tr><tr><td>8-20</td><td>7-20</td><td>6-20</td></tr></table>
+<br/>
+<table><tr><td>000</td><td>000</td><td>000</td></tr><tr><td>5-20</td><td>4-20</td><td>3-20</td></tr></table>
+<br/>
+<hr/>
+<div style='page-break-after: always'></div>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>CONSUMER LOAN</td><td>Individual</td><td>-</td><td>Blank</td><td>31-01-2020</td><td>-</td><td>12-08-2020</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>31-08-2020</td><td>91990</td><td>18398</td><td>-</td><td>Blank</td><td>-</td><td>-</td><td>-</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-08-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-02-2020
+<br/><table><tr><td>000</td><td>000</td><td>000</td></tr><tr><td>8-20</td><td>7-20</td><td>6-20</td></tr></table>
+<br/>
+<table><tr><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>5-20</td><td>4-20</td><td>3-20</td><td>2-20</td></tr></table>
+<br/>
+<hr/>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>BUSINESS LOAN â GENERAL</td><td>Guarantor</td><td>-</td><td>Blank</td><td>29-01-2020</td><td>-</td><td>-</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>31-05-2020</td><td>1510000</td><td>1412290</td><td>54970</td><td>Monthly</td><td>36</td><td>18.50</td><td>-</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-05-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-01-2020
+<br/><table><tr><td>000</td><td>000</td></tr><tr><td>5-20</td><td>4-20</td></tr></table>
+<br/>
+<table><tr><td>000</td><td>000</td><td>000</td></tr><tr><td>3-20</td><td>2-20</td><td>1-20</td></tr></table>
+<br/>
+<hr/>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>CREDIT CARD</td><td>Individual</td><td>-</td><td>Blank</td><td>06-11-2019</td><td>-</td><td>07-06-2020</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>28-08-2020</td><td>22994</td><td>0</td><td>-</td><td>Monthly</td><td>-</td><td>-</td><td>-</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-08-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-12-2019
+<br/><table><tr><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>8-20</td><td>7-20</td><td>6-20</td><td>5-20</td></tr></table>
+<br/>
+<table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>4-20</td><td>3-20</td><td>2-20</td><td>1-20</td><td>12-19</td></tr></table>
+<br/>
+<hr/>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>TWO-WHEELER LOAN</td><td>Individual</td><td>-</td><td>Blank</td><td>27-09-2019</td><td>-</td><td>10-07-2020</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>31-07-2020</td><td>120000</td><td>90246</td><td>-</td><td>Blank</td><td>-</td><td>-</td><td>-</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-07-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-09-2019
+<br/><table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>7-20</td><td>6-20</td><td>5-20</td><td>4-20</td><td>3-20</td></tr></table>
+<br/>
+<table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>2-20</td><td>1-20</td><td>12-19</td><td>11-19</td><td>10-19</td><td>9-19</td></tr></table>
+<br/>
+<hr/>
+<div style='page-break-after: always'></div>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>CONSUMER LOAN</td><td>Individual</td><td>-</td><td>Blank</td><td>16-05-2019</td><td>06-02-2020</td><td>06-02-2020</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>29-02-2020</td><td>48209</td><td>0</td><td>-</td><td>Monthly</td><td>-</td><td>-</td><td>5766</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-02-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-05-2019
+<br/><table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>2-20</td><td>1-20</td><td>12-19</td><td>11-19</td><td>10-19</td></tr></table>
+<br/>
+<table><tr><td>XXX</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>9-19</td><td>8-19</td><td>7-19</td><td>6-19</td><td>5-19</td></tr></table>
+<br/>
+<hr/>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>CREDIT CARD</td><td>Individual</td><td>-</td><td>Blank</td><td>03-05-2019</td><td>-</td><td>15-07-2020</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>31-07-2020</td><td>3814</td><td>2113</td><td>-</td><td>Blank</td><td>-</td><td>-</td><td>-</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-07-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-05-2019
+<br/><table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>7-20</td><td>6-20</td><td>5-20</td><td>4-20</td><td>3-20</td><td>2-20</td><td>1-20</td></tr></table>
+<br/>
+<table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>12-19</td><td>11-19</td><td>10-19</td><td>9-19</td><td>8-19</td><td>7-19</td><td>6-19</td><td>5-19</td></tr></table>
+<br/>
+<hr/>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>CREDIT CARD</td><td>Individual</td><td>-</td><td>Blank</td><td>24-04-2019</td><td>-</td><td>03-08-2020</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>07-08-2020</td><td>54239</td><td>0</td><td>-</td><td>Blank</td><td>-</td><td>-</td><td>-</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-08-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-05-2019
+<br/><table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>XXX</td><td>XXX</td><td>000</td></tr><tr><td>8-20</td><td>7-20</td><td>6-20</td><td>5-20</td><td>4-20</td><td>3-20</td><td>2-20</td><td>1-20</td></tr></table>
+<br/>
+<table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>12-19</td><td>11-19</td><td>10-19</td><td>9-19</td><td>8-19</td><td>7-19</td><td>6-19</td><td>5-19</td></tr></table>
+<br/>
+<hr/>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>OTHER</td><td>Joint</td><td>-</td><td>Blank</td><td>31-03-2019</td><td>-</td><td>07-09-2020</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>30-09-2020</td><td>756053</td><td>459737</td><td>-</td><td>Blank</td><td>36</td><td>-</td><td>-</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-09-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-03-2019
+<br/><table><tr><td>STD</td><td>STD</td><td>STD</td><td>STD</td><td>STD</td><td>STD</td><td>STD</td><td>STD</td><td>STD</td></tr><tr><td>9-20</td><td>8-20</td><td>7-20</td><td>6-20</td><td>5-20</td><td>4-20</td><td>3-20</td><td>2-20</td><td>1-20</td></tr></table>
+<br/>
+<table><tr><td>STD</td><td>STD</td><td>STD</td><td>STD</td><td>STD</td><td>STD</td><td>STD</td><td>STD</td><td>STD</td><td>STD</td></tr><tr><td>12-19</td><td>11-19</td><td>10-19</td><td>9-19</td><td>8-19</td><td>7-19</td><td>6-19</td><td>5-19</td><td>4-19</td><td>3-19</td></tr></table>
+<br/>
+<hr/>
+<div style='page-break-after: always'></div>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>CREDIT CARD</td><td>Individual</td><td>-</td><td>Blank</td><td>24-02-2019</td><td>-</td><td>06-08-2020</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>16-08-2020</td><td>77204</td><td>0</td><td>-</td><td>Monthly</td><td>-</td><td>46.20</td><td>145</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-08-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-02-2019
+<br/><table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>8-20</td><td>7-20</td><td>6-20</td><td>5-20</td><td>4-20</td><td>3-20</td><td>2-20</td><td>1-20</td><td>12-19</td></tr></table>
+<br/>
+<table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>11-19</td><td>10-19</td><td>9-19</td><td>8-19</td><td>7-19</td><td>6-19</td><td>5-19</td><td>4-19</td><td>3-19</td><td>2-19</td></tr></table>
+<br/>
+<hr/>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>CONSUMER LOAN</td><td>Individual</td><td>-</td><td>Blank</td><td>11-02-2019</td><td>-</td><td>04-07-2019</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>31-08-2020</td><td>12990</td><td>0</td><td>2165</td><td>Monthly</td><td>6</td><td>-</td><td>2165</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-08-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-02-2019
+<br/><table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>8-20</td><td>7-20</td><td>6-20</td><td>5-20</td><td>4-20</td><td>3-20</td><td>2-20</td><td>1-20</td><td>12-19</td></tr></table>
+<br/>
+<table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>11-19</td><td>10-19</td><td>9-19</td><td>8-19</td><td>7-19</td><td>6-19</td><td>5-19</td><td>4-19</td><td>3-19</td><td>2-19</td></tr></table>
+<br/>
+<hr/>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>HOUSING LOAN</td><td>Joint</td><td>-</td><td>Blank</td><td>31-01-2019</td><td>10-07-2020</td><td>-</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>31-07-2020</td><td>5285394</td><td>0</td><td>50186</td><td>Blank</td><td>-</td><td>-</td><td>-</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-07-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-01-2019
+<br/><table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>7-20</td><td>6-20</td><td>5-20</td><td>4-20</td><td>3-20</td><td>2-20</td><td>1-20</td><td>12-19</td><td>11-19</td></tr></table>
+<br/>
+<table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>XXX</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>10-19</td><td>9-19</td><td>8-19</td><td>7-19</td><td>6-19</td><td>5-19</td><td>4-19</td><td>3-19</td><td>2-19</td><td>1-19</td></tr></table>
+<br/>
+<hr/>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>HOUSING LOAN</td><td>Joint</td><td>-</td><td>Blank</td><td>31-01-2019</td><td>10-07-2020</td><td>-</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>31-07-2020</td><td>60986</td><td>0</td><td>579</td><td>Blank</td><td>-</td><td>-</td><td>-</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-07-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-01-2019
+<br/><table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>7-20</td><td>6-20</td><td>5-20</td><td>4-20</td><td>3-20</td><td>2-20</td><td>1-20</td><td>12-19</td><td>11-19</td></tr></table>
+<br/>
+<table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>10-19</td><td>9-19</td><td>8-19</td><td>7-19</td><td>6-19</td><td>5-19</td><td>4-19</td><td>3-19</td><td>2-19</td><td>1-19</td></tr></table>
+<br/>
+<hr/>
+<div style='page-break-after: always'></div>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>OTHER</td><td>Guarantor</td><td>-</td><td>Blank</td><td>29-11-2018</td><td>26-06-2020</td><td>-</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>30-06-2020</td><td>2000000</td><td>0</td><td>-</td><td>Monthly</td><td>-</td><td>-</td><td>-</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-06-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-11-2018
+<br/><table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>XXX</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>6-20</td><td>5-20</td><td>4-20</td><td>3-20</td><td>2-20</td><td>1-20</td><td>12-19</td><td>11-19</td><td>10-19</td><td>9-19</td></tr></table>
+<br/>
+<table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>001</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>8-19</td><td>7-19</td><td>6-19</td><td>5-19</td><td>4-19</td><td>3-19</td><td>2-19</td><td>1-19</td><td>12-18</td><td>11-18</td></tr></table>
+<br/>
+<hr/>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>CREDIT CARD</td><td>Individual</td><td>-</td><td>Blank</td><td>17-01-2018</td><td>-</td><td>06-08-2020</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>30-09-2020</td><td>24119</td><td>23302</td><td>-</td><td>Blank</td><td>-</td><td>-</td><td>-</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-09-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-01-2018
+<br/><table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>9-20</td><td>8-20</td><td>7-20</td><td>6-20</td><td>5-20</td><td>4-20</td><td>3-20</td><td>2-20</td><td>1-20</td><td>12-19</td><td>11-19</td><td>10-19</td><td>9-19</td><td>8-19</td><td>7-19</td><td>6-19</td></tr></table>
+<br/>
+<table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>5-19</td><td>4-19</td><td>3-19</td><td>2-19</td><td>1-19</td><td>12-18</td><td>11-18</td><td>10-18</td><td>9-18</td><td>8-18</td><td>7-18</td><td>6-18</td><td>5-18</td><td>4-18</td><td>3-18</td><td>2-18</td><td>1-18</td></tr></table>
+<br/>
+<hr/>
+<table class='tableInfo'><tr><th>MEMBER NAME</th><th>ACCOUNT NUMBER</th><th>TYPE</th><th>OWNERSHIP</th><th>COLLATERAL VALUE</th><th>COLLATERAL TYPE</th><th>OPENED</th><th>CLOSED</th><th>LAST PAYMENT</th></tr><tr><td>NOT DISCLOSED</td><td>-</td><td>TWO-WHEELER LOAN</td><td>Individual</td><td>-</td><td>Blank</td><td>22-12-2015</td><td>-</td><td>15-01-2018</td></tr></table>
+<br/>
+<table class='tableInfo'><tr><th>REPORTED AND CERTIFIED</th><th>HIGH CR/SANCTIONED</th><th>CURRENT BALANCE</th><th>EMI</th><th>PMT FREQ</th><th>REPAYMENT TENURE</th><th>INTEREST RATE</th><th>ACTUAL PAYMENT</th></tr><tr><td>31-08-2020</td><td>45800</td><td>0</td><td>-</td><td>Monthly</td><td>-</td><td>-</td><td>-</td></tr></table>
+<br/>
+<b>AMOUNT OVERDUE</b> : 0
+<br/><b>SUIT FILED/WILLFUL DEFAULT </b> : Blank
+<br/><b>WRITTEN-OFF AND SETTLED STATUS </b> : Blank
+<br/><b> PAYMENT HISTORY START DATE </b> : 01-08-2020
+<br/><b> PAYMENT HISTORY END DATE </b>: 01-09-2017
+<br/><table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>8-20</td><td>7-20</td><td>6-20</td><td>5-20</td><td>4-20</td><td>3-20</td><td>2-20</td><td>1-20</td><td>12-19</td><td>11-19</td><td>10-19</td><td>9-19</td><td>8-19</td><td>7-19</td><td>6-19</td><td>5-19</td><td>4-19</td><td>3-19</td></tr></table>
+<br/>
+<table><tr><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td><td>000</td></tr><tr><td>2-19</td><td>1-19</td><td>12-18</td><td>11-18</td><td>10-18</td><td>9-18</td><td>8-18</td><td>7-18</td><td>6-18</td><td>5-18</td><td>4-18</td><td>3-18</td><td>2-18</td><td>1-18</td><td>12-17</td><td>11-17</td><td>10-17</td><td>9-17</td></tr></table>
+<br/>
+<hr/>
+
+        </div>
+    </div>
+    <div style='page-break-after: always'>
+    </div>
+    <div id='divEnquiries'>
+        <div class='divHeader'>
+            ENQUIRIE(S)
+        </div>
+        <hr />
+        <div>
+            <table class='tableInfo'><tr><th>MEMBER</th><th>ENQUIRY DATE</th><th>ENQUIRY PURPOSE</th><th>ENQUIRY AMOUNT</th></tr><tr><td>NOT DISCLOSED</td><td>22-10-2020</td><td>-</td><td>2500000</td></tr><tr><td>NOT DISCLOSED</td><td>19-10-2020</td><td>CONSUMER LOAN</td><td>50000</td></tr><tr><td>NOT DISCLOSED</td><td>17-10-2020</td><td>BUSINESS LOAN â PRIORITY SECTOR â SMALL BUSINESS</td><td>2500002</td></tr><tr><td>NOT DISCLOSED</td><td>17-10-2020</td><td>PERSONAL LOAN</td><td>1000000</td></tr><tr><td>NOT DISCLOSED</td><td>14-10-2020</td><td>BUSINESS LOAN â GENERAL</td><td>1500000</td></tr><tr><td>NOT DISCLOSED</td><td>12-10-2020</td><td>BUSINESS LOAN â GENERAL</td><td>2500000</td></tr><tr><td>NOT DISCLOSED</td><td>10-10-2020</td><td>BUSINESS LOAN â GENERAL</td><td>100000</td></tr><tr><td>NOT DISCLOSED</td><td>09-10-2020</td><td>PERSONAL LOAN</td><td>513362</td></tr><tr><td>NOT DISCLOSED</td><td>09-10-2020</td><td>OTHER</td><td>1</td></tr><tr><td>NOT DISCLOSED</td><td>07-10-2020</td><td>CREDIT CARD</td><td>100</td></tr><tr><td>NOT DISCLOSED</td><td>29-09-2020</td><td>BUSINESS LOAN â GENERAL</td><td>100000</td></tr><tr><td>NOT DISCLOSED</td><td>12-09-2020</td><td>PERSONAL LOAN</td><td>1000000</td></tr><tr><td>NOT DISCLOSED</td><td>09-09-2020</td><td>CREDIT CARD</td><td>100000</td></tr><tr><td>NOT DISCLOSED</td><td>14-08-2020</td><td>CONSUMER LOAN</td><td>50000</td></tr><tr><td>NOT DISCLOSED</td><td>10-08-2020</td><td>CONSUMER LOAN</td><td>683990</td></tr><tr><td>NOT DISCLOSED</td><td>18-06-2020</td><td>BUSINESS LOAN â GENERAL</td><td>302000</td></tr><tr><td>NOT DISCLOSED</td><td>08-06-2020</td><td>CONSUMER LOAN</td><td>531790</td></tr><tr><td>NOT DISCLOSED</td><td>06-06-2020</td><td>CREDIT CARD</td><td>50000</td></tr><tr><td>NOT DISCLOSED</td><td>21-02-2020</td><td>CREDIT CARD</td><td>1000</td></tr><tr><td>NOT DISCLOSED</td><td>12-02-2020</td><td>BUSINESS LOAN â PRIORITY SECTOR â AGRICULTURE</td><td>2500000</td></tr><tr><td>NOT DISCLOSED</td><td>12-02-2020</td><td>CREDIT CARD</td><td>10000</td></tr><tr><td>NOT DISCLOSED</td><td>07-02-2020</td><td>HOUSING LOAN</td><td>5200000</td></tr><tr><td>NOT DISCLOSED</td><td>02-02-2020</td><td>CONSUMER LOAN</td><td>211800</td></tr><tr><td>NOT DISCLOSED</td><td>30-01-2020</td><td>CONSUMER LOAN</td><td>211800</td></tr><tr><td>NOT DISCLOSED</td><td>30-01-2020</td><td>CREDIT CARD</td><td>1000</td></tr><tr><td>NOT DISCLOSED</td><td>30-01-2020</td><td>PERSONAL LOAN</td><td>50000</td></tr><tr><td>NOT DISCLOSED</td><td>29-01-2020</td><td>BUSINESS LOAN â PRIORITY SECTOR â SMALL BUSINESS</td><td>2500000</td></tr><tr><td>EHFL</td><td>25-01-2020</td><td>BUSINESS LOAN â GENERAL</td><td>15000</td></tr><tr><td>NOT DISCLOSED</td><td>22-01-2020</td><td>OTHER</td><td>2000000</td></tr><tr><td>NOT DISCLOSED</td><td>22-01-2020</td><td>-</td><td>2000000</td></tr><tr><td>NOT DISCLOSED</td><td>21-01-2020</td><td>BUSINESS LOAN â PRIORITY SECTOR â SMALL BUSINESS</td><td>500000</td></tr><tr><td>NOT DISCLOSED</td><td>17-01-2020</td><td>BUSINESS LOAN â GENERAL</td><td>2000000</td></tr><tr><td>NOT DISCLOSED</td><td>16-01-2020</td><td>BUSINESS LOAN â GENERAL</td><td>100000</td></tr><tr><td>NOT DISCLOSED</td><td>16-01-2020</td><td>BUSINESS LOAN â GENERAL</td><td>1</td></tr><tr><td>NOT DISCLOSED</td><td>15-01-2020</td><td>PERSONAL LOAN</td><td>1000000</td></tr><tr><td>NOT DISCLOSED</td><td>15-01-2020</td><td>BUSINESS LOAN â GENERAL</td><td>1000000</td></tr><tr><td>NOT DISCLOSED</td><td>14-01-2020</td><td>BUSINESS LOAN â GENERAL</td><td>2000000</td></tr><tr><td>NOT DISCLOSED</td><td>13-01-2020</td><td>BUSINESS LOAN â GENERAL</td><td>5000000</td></tr><tr><td>NOT DISCLOSED</td><td>20-11-2019</td><td>CREDIT CARD</td><td>1000</td></tr><tr><td>NOT DISCLOSED</td><td>30-10-2019</td><td>CREDIT CARD</td><td>100</td></tr><tr><td>NOT DISCLOSED</td><td>07-10-2019</td><td>CONSUMER LOAN</td><td>50000</td></tr><tr><td>NOT DISCLOSED</td><td>07-10-2019</td><td>PERSONAL LOAN</td><td>16200</td></tr><tr><td>NOT DISCLOSED</td><td>28-09-2019</td><td>TWO-WHEELER LOAN</td><td>120000</td></tr><tr><td>NOT DISCLOSED</td><td>12-09-2019</td><td>TWO-WHEELER LOAN</td><td>152000</td></tr><tr><td>NOT DISCLOSED</td><td>12-09-2019</td><td>TWO-WHEELER LOAN</td><td>152000</td></tr><tr><td>NOT DISCLOSED</td><td>12-09-2019</td><td>TWO-WHEELER LOAN</td><td>170000</td></tr><tr><td>NOT DISCLOSED</td><td>08-08-2019</td><td>TWO-WHEELER LOAN</td><td>500000</td></tr><tr><td>NOT DISCLOSED</td><td>05-08-2019</td><td>PERSONAL LOAN</td><td>1</td></tr><tr><td>NOT DISCLOSED</td><td>06-06-2019</td><td>CREDIT CARD</td><td>15000</td></tr><tr><td>NOT DISCLOSED</td><td>03-05-2019</td><td>CONSUMER LOAN</td><td>10000000</td></tr><tr><td>NOT DISCLOSED</td><td>03-05-2019</td><td>CONSUMER LOAN</td><td>73900</td></tr><tr><td>NOT DISCLOSED</td><td>03-05-2019</td><td>CONSUMER LOAN</td><td>147800</td></tr><tr><td>NOT DISCLOSED</td><td>09-04-2019</td><td>BUSINESS LOAN â PRIORITY SECTOR â SMALL BUSINESS</td><td>250000</td></tr><tr><td>NOT DISCLOSED</td><td>09-04-2019</td><td>-</td><td>1500000</td></tr><tr><td>NOT DISCLOSED</td><td>08-04-2019</td><td>BUSINESS LOAN â PRIORITY SECTOR â SMALL BUSINESS</td><td>1600000</td></tr><tr><td>NOT DISCLOSED</td><td>27-03-2019</td><td>-</td><td>15000</td></tr><tr><td>NOT DISCLOSED</td><td>22-03-2019</td><td>BUSINESS LOAN â GENERAL</td><td>4000000</td></tr><tr><td>NOT DISCLOSED</td><td>18-03-2019</td><td>-</td><td>1500000</td></tr><tr><td>NOT DISCLOSED</td><td>17-03-2019</td><td>PERSONAL LOAN</td><td>1000000</td></tr><tr><td>NOT DISCLOSED</td><td>16-03-2019</td><td>BUSINESS LOAN â GENERAL</td><td>100000</td></tr><tr><td>NOT DISCLOSED</td><td>16-03-2019</td><td>OTHER</td><td>1</td></tr><tr><td>NOT DISCLOSED</td><td>14-03-2019</td><td>BUSINESS LOAN â GENERAL</td><td>1000</td></tr><tr><td>NOT DISCLOSED</td><td>20-02-2019</td><td>CREDIT CARD</td><td>1</td></tr><tr><td>NOT DISCLOSED</td><td>07-02-2019</td><td>CONSUMER LOAN</td><td>13000</td></tr><tr><td>NOT DISCLOSED</td><td>07-02-2019</td><td>CONSUMER LOAN</td><td>13000</td></tr><tr><td>NOT DISCLOSED</td><td>28-01-2019</td><td>HOUSING LOAN</td><td>6000000</td></tr><tr><td>NOT DISCLOSED</td><td>25-01-2019</td><td>HOUSING LOAN</td><td>60000</td></tr><tr><td>NOT DISCLOSED</td><td>07-01-2019</td><td>HOUSING LOAN</td><td>5500000</td></tr><tr><td>NOT DISCLOSED</td><td>23-11-2018</td><td>BUSINESS LOAN â GENERAL</td><td>100000</td></tr><tr><td>NOT DISCLOSED</td><td>15-12-2015</td><td>TWO-WHEELER LOAN</td><td>45800</td></tr><tr><td>NOT DISCLOSED</td><td>31-10-2015</td><td>TWO-WHEELER LOAN</td><td>45800</td></tr><tr><td>NOT DISCLOSED</td><td>15-09-2015</td><td>TWO-WHEELER LOAN</td><td>46272</td></tr></table>
+        </div>
+    </div>
+</body>
+</html>
